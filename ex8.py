@@ -1,4 +1,8 @@
 #Task1
+from difflib import Match
+from importlib import machinery
+
+
 text="Berlin is a world city of culture, politics, media and science."
 print(len(text))
 #Task2
@@ -18,3 +22,11 @@ print("B appears: " + str(b_appears) + "" ,"times")
 text="Berlin straddles the banks of the Spree, which flows into the Havel (a tributary of the Elbe) in the western borough of Spandau."
 last_ten=text[-10:]
 print("Last ten characters: ",str(last_ten)) 
+#Task 6
+text="---Python programming---"
+remove_theminus=text.strip("-")
+print(remove_theminus)
+#Task 7
+Firstname="Mary"
+Lastname="Mat"
+print("Firstname:",Firstname,"\nLastname:",Lastname) 
