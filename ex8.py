@@ -14,3 +14,7 @@ print(first_three.upper())
 text="Berlin is surrounded by the State of Brandenburg and contiguous with Potsdam, Brandenburg's capital"
 b_appears=text.count("b")
 print("B appears: " + str(b_appears) + "" ,"times")
+#Task 5
+text="Berlin straddles the banks of the Spree, which flows into the Havel (a tributary of the Elbe) in the western borough of Spandau."
+last_ten=text[-10:]
+print("Last ten characters: ",str(last_ten)) 
